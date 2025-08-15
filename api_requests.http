@@ -1,0 +1,22 @@
+### Add a new item
+POST http://127.0.0.1:5000/items
+Content-Type: application/json
+
+{
+  "name": "My First Item",
+  "description": "This is my first item created via REST Client"
+}
+
+### Get all items
+GET http://127.0.0.1:5000/items
+
+### Add another item (only name required)
+POST http://127.0.0.1:5000/items
+Content-Type: application/json
+
+{
+  "name": "Simple Item"
+}
+
+### Get specific item (replace 1 with actual ID)
+GET http://127.0.0.1:5000/items/1
