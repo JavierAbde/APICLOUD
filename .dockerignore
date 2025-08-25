@@ -1,0 +1,15 @@
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+*.log
+.env
+.venv/
+venv/
+.git/
+.gitignore
+.vscode/
+.idea/
+dist/
+build/
+data/         # ignora la carpeta local de datos (la persistes con volumen)
